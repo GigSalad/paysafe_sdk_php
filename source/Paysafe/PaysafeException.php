@@ -24,4 +24,5 @@ class PaysafeException extends \Exception
 {
     public $fieldErrors;
     public $links;
+    public $rawResponse;
 }
